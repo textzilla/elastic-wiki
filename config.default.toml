@@ -1,0 +1,9 @@
+# https://toml.io/
+name = "ElasticWiki"
+
+[[sapi]]
+enable = true
+resp = "github.com/textzilla/ew-sapi-rest"
+config.http2 = true
+config.ssl = true
+config.host = "localhost"
